@@ -1,5 +1,5 @@
 <header class="row">
-  <div class="col-7 offset-1">
+  <div class="col-6 col-sm-7 offset-1">
     <% @movies.each do |m| %>
       <div class="box">
         <div class="transbox">
@@ -7,14 +7,14 @@
           <h5><%=m.month %>
           <%= m.year %>
           </h5>
-          <p>Thoughts: <%= m.thoughts %></p>
+          <h6>Thoughts: <%= m.thoughts %></h6>
 
         </div>
       </div>
     <% end %>
   </div>
 
-  <div class="col-3 offset-1 text-left">
+  <div class="col-4 offset-1 text-left col-sm-3">
   <div class="box2">
       <b> Collection</b>
         <% @unique.each do |u| %>

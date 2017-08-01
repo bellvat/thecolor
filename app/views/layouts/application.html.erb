@@ -27,7 +27,7 @@
     </header>
 
     <div class="blurb col-7 offset-1 text-center">
-      <p> A collection of films you watched. </p>
+      <p> Your film collection. </p>
     </div>
 
 
@@ -45,13 +45,13 @@
 
           <%= simple_form_for Movie.new, defaults: {input_html:{ class: 'form-control'}} do |f| %>
             <div class="modal-body">
-              <%= f.input :movie, label: "What is the movie you want to add?" %>
+              <%= f.input :movie, label: "Movie title:" %>
               <br />
-              <%= f.input :month, label: "What month did you watch it?" %>
+              <%= f.input :month, label: "Month watched:" %>
               <br />
-              <%= f.input :year, label: "What year did you watch it?" %>
+              <%= f.input :year, label: "Year watched:" %>
               <br />
-              <%= f.input :thoughts, label: "What are some of your thoughts on it?" %>
+              <%= f.input :thoughts, label: "Your thoughts:" %>
               <br />
           </div>
           <div class="modal-footer">
