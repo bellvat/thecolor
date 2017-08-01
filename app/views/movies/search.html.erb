@@ -14,11 +14,13 @@
     <% end %>
   </div>
 
-  <div class="col-3 offset-1 text-center">
+  <div class="col-3 text-center">
   <div class="box2">
-      <b> Collection</b>
+      <b> List of movies</b>
         <% @unique.each do |u| %>
+          <%= link_to search_path do %>
             <li><%= u %></li>
+          <% end %>
         <% end %>
     </div>
   </div>
