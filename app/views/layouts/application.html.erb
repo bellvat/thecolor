@@ -9,11 +9,13 @@
   </head>
 
   <body>
-    <header class="row">
-      <div class="text-right col-6 title">
+    <header class="row row1">
+      <div class="text-right col-6">
+        <%= link_to root_path, class:'title' do %>
         thecolor
+        <%end%>
       </div>
-      <div class="text-right col-4 offset-1 add_placement">
+      <div class="text-right col-5 add_placement">
 
           <%= link_to '-add-','#', data: {toggle: 'modal', target: '#myModal'}, class: 'add'%>
         </div>
@@ -23,7 +25,10 @@
 
     </header>
 
-    <p class="col-11 text-center"> A collection of films watched, with some thoughts. </p>
+    <div class="blurb col text-center">
+      <p> A memory place for films you watched </p>
+      <p> and how they made you feel. </p>
+    </div>
 
 
 
