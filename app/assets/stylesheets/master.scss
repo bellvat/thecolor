@@ -14,10 +14,14 @@ body {
   color: white;
 }
 
-.add {
+.add_placement {
   font-size: 18px;
   color: white;
   padding-top: 8px;
+}
+
+.add {
+  text-decoration: none; color: white;
 }
 
 .clear {
@@ -25,16 +29,21 @@ body {
 }
 
 .box {
-  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: #fff;
-  border: 1px solid #ccc;
-  border-color: #e4e4e4 #392a2d #392a2d #e4e4e4;
+  background-color: white;
+  opacity: 0.5;
+  border: 1px solid white;
+  border-radius: 25px;
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 20px;
+}
 
+.transbox {
+  color: black;
+}
+
+.gcolor {
+  color: white;
 }
 
 .apple_pagination {
