@@ -58,13 +58,15 @@ body {
 .blurb {
   color: white;
   font-size: 18px;
+  font-family: 'Rajdhani', sans-serif;
+
 }
 
 .clear {
   clear: both;
 }
 
-h5, h3, h6, p {
+h5, h3, h6 {
   font-family: 'Rajdhani', sans-serif;
 }
 
@@ -78,7 +80,7 @@ h5, h3, h6, p {
   padding: 20px;
 }
 
-.box2 {
+.box2, .list {
   background-color: none;
   margin-top: 25px;
   margin-left: 5%;
@@ -87,7 +89,15 @@ h5, h3, h6, p {
 
 }
 
+.container {
+  font-size: 0;
+}
 
+.container span {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 16px;
+
+}
 .transbox {
   color: black;
 }
