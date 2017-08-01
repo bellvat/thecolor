@@ -24,13 +24,24 @@ body {
   padding-top: 8px;
 }
 
-.add, .add:visited {
+.add {
   text-decoration: none; color: white;
 }
 
+.add:visited{
+  text-decoration: none; color:white;
+}
 .add:hover {
   text-decoration: none; color: pink;
 }
+
+.add:focus {
+  outline: 0;
+  text-decoration: none;
+  text-underline-position: none;
+
+}
+
 
 .blurb {
   color: white;
