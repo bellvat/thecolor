@@ -36,6 +36,10 @@ body {
   text-decoration: none; color: pink;
 }
 
+.add:active {
+  text-decoration: none; color: white;
+}
+
 .add:focus {
   outline: 0;
   text-decoration: none;
