@@ -43,9 +43,7 @@
             <div class="modal-body">
               <%= f.input :movie, label: "Movie title:" %>
               <br />
-              <%= f.input :month, label: "Month watched:" %>
-              <br />
-              <%= f.input :year, label: "Year watched:" %>
+              <%= f.input :year, as: :date, start_year: Date.today.year, end_year: Date.today.year-100, discard_day: true, order: [:month, :year], include_blank: true, default: nil, :input_html => {:class => 'profile-date'},label: "When did you watch it?" %>
               <br />
               <%= f.input :thoughts, label: "Your thoughts:" %>
               <br />
