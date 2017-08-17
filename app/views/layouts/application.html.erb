@@ -45,7 +45,7 @@
               <br />
               <%= f.input :month, collection: Date::ABBR_MONTHNAMES,label: "Month watched" %>
               <br />
-              <%= f.input :year, collection: (Time.now.year.to_i).downto(1950).to_a, label: "Year watched"%>
+              <%= f.input :year, collection: (Time.now.year.to_i).downto(1950), label: "Year watched"%>
               <br />
               <%= f.input :thoughts, label: "Your thoughts:" %>
               <br />
