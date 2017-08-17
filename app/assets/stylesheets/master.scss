@@ -91,7 +91,11 @@ h5, h3, h6 {
 
 .collection, .collection:visited {
   color: white;
-  text-decoration-color: black;
+  text-decoration: none;
+}
+
+.collection:hover {
+  text-decoration: none; color: pink;
 }
 
 .container span {
